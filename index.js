@@ -1,7 +1,7 @@
 function isPalindrome(word) {
   for (let i = 0; i < word.length / 2; i++) {
-    const j = word.length - 1 - i;
-    if (word[i] !== word[j]) return false;
+    const word1 = word.length - 1 - i;
+    if (word[i] !== word[word1]) return false;
 
   } 
   return true 
